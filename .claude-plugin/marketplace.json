@@ -1,0 +1,17 @@
+{
+  "name": "accelerate-agentic-ai",
+  "owner": {
+    "name": "saygenie"
+  },
+  "metadata": {
+    "description": "AI-DLC 방법론 + 에이전트 설계 원칙 통합 가이드 플러그인"
+  },
+  "plugins": [
+    {
+      "name": "accelerate-agentic-ai",
+      "source": "./",
+      "description": "AI-DLC 방법론 기반 에이전트 개발 가이드. Strands Agents SDK + Amazon Bedrock AgentCore.",
+      "version": "1.0.0"
+    }
+  ]
+}

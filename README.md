@@ -10,11 +10,17 @@ AWS Specialist SA와 고객 개발자가 함께 프로덕션 수준의 AI 에이
 ### Claude Code 플러그인으로 설치
 
 ```bash
-# 로컬 테스트 (세션 한정)
-claude --plugin-dir /path/to/accelerate-agentic-ai
+# 1. 마켓플레이스 등록 (최초 1회)
+claude plugin marketplace add saygenie/accelerate-agentic-ai
 
-# 또는 GitHub에서 설치
-claude plugin install accelerate-agentic-ai
+# 2. 플러그인 설치
+claude plugin install accelerate-agentic-ai@accelerate-agentic-ai
+```
+
+로컬에서 테스트하려면 저장소를 클론한 뒤:
+
+```bash
+claude --plugin-dir /path/to/accelerate-agentic-ai
 ```
 
 ### Kiro Power로 사용 (기존 호환)
