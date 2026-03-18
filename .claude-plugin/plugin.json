@@ -1,0 +1,9 @@
+{
+  "name": "accelerate-agentic-ai",
+  "description": "AI-DLC 방법론 + 에이전트 설계 원칙 통합 가이드. Strands Agents SDK와 Amazon Bedrock AgentCore 기반으로 프로덕션 수준의 AI 에이전트를 구축하는 co-building 과정을 체계적으로 지원합니다.",
+  "version": "1.0.0",
+  "author": {
+    "name": "saygenie"
+  },
+  "repository": "https://github.com/saygenie/accelerate-agentic-ai"
+}
